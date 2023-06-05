@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ParametryWieloagent">
+  <grid id="27dc6" binding="FormParams" layout-manager="GridLayoutManager" row-count="12" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="833" height="449"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="84577" class="javax.swing.JLabel" binding="Typkuchni">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Typ kuchni"/>
+        </properties>
+      </component>
+      <component id="58c50" class="javax.swing.JLabel" binding="RodzajPosiłku">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rodzaj posiłku"/>
+        </properties>
+      </component>
+      <component id="d606" class="javax.swing.JLabel" binding="RodzajPotrawy">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rodzaj potrawy"/>
+        </properties>
+      </component>
+      <component id="92f14" class="javax.swing.JLabel" binding="SmakPotrawy">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Smak potrawy"/>
+        </properties>
+      </component>
+      <component id="74e77" class="javax.swing.JLabel" binding="SposóbPrzyrządzania">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sposób Przyrządzania"/>
+        </properties>
+      </component>
+      <component id="6f0fa" class="javax.swing.JLabel" binding="CzasPrzygotowania">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Czas przygotowania"/>
+        </properties>
+      </component>
+      <component id="dd5e4" class="javax.swing.JComboBox" binding="comboBox1">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Kuchnia Włoska"/>
+            <item value="Kuchnia Polska"/>
+            <item value="Kuchnia Indyjska"/>
+            <item value="Kuchnia Wietnamska"/>
+            <item value="Kuchnia Meksykańśka"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7a033" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Śniadanie"/>
+            <item value="Lunch"/>
+            <item value="Obiad"/>
+            <item value="Kolacja"/>
+            <item value="Dodatek"/>
+            <item value="Deser"/>
+          </model>
+        </properties>
+      </component>
+      <component id="44054" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Sałatka"/>
+            <item value="Zupa"/>
+            <item value="Dania miesne"/>
+            <item value="MAkaron"/>
+            <item value="Pizza"/>
+            <item value="Deser"/>
+          </model>
+        </properties>
+      </component>
+      <component id="abc26" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Słodki"/>
+            <item value="Słony"/>
+            <item value="Kwaśny"/>
+            <item value="Gorzki"/>
+            <item value="Pikantny"/>
+            <item value="Słodko-KWaśny"/>
+            <item value="Bardzo-Pikantny"/>
+          </model>
+        </properties>
+      </component>
+      <component id="692ac" class="javax.swing.JComboBox" binding="comboBox5" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Gotowanie"/>
+            <item value="Smażenie"/>
+            <item value="Pieczenie"/>
+            <item value="Grillowanie"/>
+            <item value="Bez obróbki termicznej"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b0d09" class="javax.swing.JComboBox" binding="comboBox6" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Poniżej 10 min"/>
+            <item value="10-15 min"/>
+            <item value="15-30 min"/>
+            <item value="30 m - 1 h"/>
+            <item value="1 h - 1,5 h"/>
+            <item value="Powyżej 1,5 h"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c01c8" class="javax.swing.JComboBox" binding="comboBox7" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Wysoki"/>
+            <item value="Średni"/>
+            <item value="Niski"/>
+          </model>
+        </properties>
+      </component>
+      <component id="dbf54" class="javax.swing.JComboBox" binding="comboBox8" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Wysoki"/>
+            <item value="Średni"/>
+            <item value="Niski"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e5792" class="javax.swing.JComboBox" binding="comboBox10" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Wysoki"/>
+            <item value="Średni"/>
+            <item value="Niski"/>
+          </model>
+        </properties>
+      </component>
+      <component id="88445" class="javax.swing.JComboBox" binding="comboBox9" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Wysoki"/>
+            <item value="Średni"/>
+            <item value="Niski"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1bcdc" class="javax.swing.JComboBox" binding="comboBox11" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Wysoki"/>
+            <item value="Średni"/>
+            <item value="Niski"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2d944" class="javax.swing.JComboBox" binding="comboBox12" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Wysoki"/>
+            <item value="Średni"/>
+            <item value="Niski"/>
+          </model>
+        </properties>
+      </component>
+      <component id="55da9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Priorytet"/>
+        </properties>
+      </component>
+      <component id="b0f01" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cechy"/>
+        </properties>
+      </component>
+      <component id="b8f4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="36" height="67"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Wyniki"/>
+        </properties>
+      </component>
+      <component id="33b81" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="AgentyKlient"/>
+        </properties>
+      </component>
+      <component id="c2e0b" class="javax.swing.JFormattedTextField" binding="LagentowK">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="c34cf" class="javax.swing.JFormattedTextField" binding="LagentowS">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="81cd2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="AgentySeller"/>
+        </properties>
+      </component>
+      <component id="52559" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="4638d" class="javax.swing.JTextPane" binding="Wyniki">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bdb24" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="27a72" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Podaj index wybranego"/>
+        </properties>
+      </component>
+      <component id="4c2cc" class="javax.swing.JButton" binding="zapiszWyborButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Zapisz wybor"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
